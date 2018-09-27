@@ -118,5 +118,5 @@ run_analysis <- function()
     
         # Save this independant tidy data set
     
-    write.table(data_summarized, file="tidy_data.txt")
+    write.table(data_summarized, file="tidy_data.txt", row.names=FALSE)
 }
